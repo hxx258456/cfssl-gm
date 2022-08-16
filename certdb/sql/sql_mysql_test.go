@@ -1,0 +1,19 @@
+//go:build mysql
+// +build mysql
+
+package sql
+
+import (
+	"testing"
+
+	"github.com/hxx258456/cfssl-gm/certdb/testdb"
+)
+
+func TestMySQL(t *testing.T) {
+	db := testdb.MySQLDB()
+	ta := TestAccessor{
+		Accessor: NewAccessor(db),
+		DB:       db,
+	}
+	testEverything(ta, t)
+}
