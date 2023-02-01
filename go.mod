@@ -3,13 +3,13 @@ module github.com/hxx258456/cfssl-gm
 go 1.17
 
 require (
-	gitee.com/zhaochuninhefei/zcgolog v0.0.14
+	gitee.com/zhaochuninhefei/zcgolog v0.0.16
 	github.com/GeertJohan/go.rice v1.0.2
 	github.com/cloudflare/backoff v0.0.0-20161212185259-647f3cdfc87a
 	github.com/cloudflare/go-metrics v0.0.0-20151117154305-6a9aea36fb41
 	github.com/cloudflare/redoctober v0.0.0-20211013234631-6a74ccc611f6
 	github.com/google/certificate-transparency-go v1.1.4
-	github.com/hxx258456/ccgo v0.0.3
+	github.com/hxx258456/ccgo v0.0.4
 	github.com/jmhodges/clock v1.2.0
 	github.com/jmoiron/sqlx v1.3.5
 	github.com/kisielk/sqlstruct v0.0.0-20210630145711-dae28ed37023
